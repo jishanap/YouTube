@@ -1,0 +1,75 @@
+body{
+  margin: 0px;
+}
+.video-box-grid{
+  display: grid;
+  position: relative;
+  top: 70px;
+  left: 70px;
+  
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-content: center;
+  column-gap: 12px;
+  row-gap: 40px;
+  padding: 20px;
+  padding-right: 50px;
+}
+.thambanail-pic{
+  width: 100%;
+}
+.profile-pic{
+  width: 40px;
+  border-radius: 50px;
+}
+.vedio-details-grid{
+  display: grid;
+  grid-template-columns:50px 1fr;
+  
+}
+.video-info{
+  width: 100%;
+}
+.video-title{
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+.video-author{
+  margin-bottom: 0px;
+
+}
+.video-time{
+  margin-top: 0px;
+}
+.video-author,
+.video-time{
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.sidebar{
+   position: fixed;
+    left: 0;
+    top: 56px;
+    bottom: 0;
+    background-color: white;
+    width: 72px;
+    padding-top: 4px;
+    z-index: 200;
+}
+.sidebar-box{
+  font-size: 10px;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.sidebar-img{
+  height: 24px;
+    margin-bottom: 6.5px;
+}
+
